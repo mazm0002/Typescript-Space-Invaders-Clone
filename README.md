@@ -1,4 +1,4 @@
-A clone of the popular arcade game Space Invaders written entirely in TypeScript. The RxJs library was used to implement functional reactive programming.
+A clone of the popular arcade game Space Invaders written entirely in TypeScript. The RxJS library was used to implement functional reactive programming.
 
 How to play:
 1) Install Node.js
