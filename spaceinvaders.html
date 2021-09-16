@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+
+            .bullet{
+                fill:green
+            }
+
+            .score{
+                fill:white
+            }
+
+            .gameover{
+                fill:red;
+                font-size:30
+            }
+            .score{
+                fill:white
+                font-size:30
+            }
+        </style>
+        <script src="./dist/spaceinvaders.js"></script>
+    </head>
+    <body>
+        <h1>Space Invaders</h1>
+        <svg id="canvas" width="600" height="600">
+            <text id="score" x="40" y="30" class="score" font-size="large" >Score:0</text>
+            <text id="high_score" x="180" y="30" class="score" font-size="large" >High Score:0</text>
+            <text id="level" x="350" y="30" class="score" font-size="large" >Level:0</text>
+
+            <g id="ship" transform="translate(300,550)">
+                <polygon points = "-15,20 15,20 0,-20"
+                            style="fill:lightblue">
+                </polygon>
+            </g>
+        </svg>
+        <h2>Instructions</h2>
+        <p>
+            <br> Move Right: Right Arrow Key</br>
+            <br>Move Left: Left Arrow Key</br>
+            <br>Shoot: Spacebar</br>
+            <br>Restart: R</br>
+            <br>Hit aliens to score points</br>
+
+        </p>
+    </body>
+</html>
